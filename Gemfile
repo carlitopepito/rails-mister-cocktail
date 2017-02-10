@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#SECURITY
+gem 'figaro'
+
+
 #FRONT-END
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
