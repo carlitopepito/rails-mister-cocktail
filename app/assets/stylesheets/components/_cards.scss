@@ -1,4 +1,20 @@
 .card {
-  background-color: #DEC9E6;
-  height: 100px;
+  background-color: #EF4C66;
+  border-radius: 10px;
+  height: 250px;
+  position: relative;
+  margin: 10px;
+}
+.card-name {
+  position: absolute;
+  background-color: white;
+  width:100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.card-picture {
+  height:100%;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
 }

@@ -6,6 +6,8 @@
   <%= link_to 'Remove this ingredient', cocktail_dose_path(dose.cocktail, dose), method: :delete , data: { confirm: "Are you sure?" }%>
 <% end  %>
 
+<%= cl_image_tag @cocktail.photo %>
+
 <h2>Add an ingredient</h2>
 
 <%= simple_form_for [@cocktail ,@dose] do |f| %>
